@@ -1,0 +1,33 @@
+.footer {
+    height: 80px;
+    background-color: $color-peach;
+    padding: 16px;
+  }
+
+.email {
+    font-family: 'Comfortaa';
+    font-weight: bold;
+    font-size: x-large;
+    color: white;
+}
+
+.f_links {
+    font-family: 'Comfortaa';
+    font-weight: bold;
+    text-decoration-line: none;
+    padding: 6px;
+    align-items: flex-end;
+    color: white;
+} 
+
+#linkdiv {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+.copyrigth {
+    text-align: center;
+    color: rgb(131, 125, 125);
+}

@@ -1,0 +1,15 @@
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    height: 64px;
+    background-color: $color-beige;
+  }
+.links {
+    display: flex;
+    font-family: 'Comfortaa';
+    font-weight: bold;
+    text-decoration-line: none;
+    padding: 6px;
+    align-items: center;
+    color: black;
+} 

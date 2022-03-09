@@ -1,0 +1,11 @@
+@import "./constants/colors";
+
+@import "./navigation/navbar";
+@import "./home/landing.scss";
+@import "./navigation/footer";
+
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
