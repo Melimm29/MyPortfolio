@@ -4,7 +4,7 @@ const Landing = () => {
       <div className="image">
         <img src="Melissa.jpeg" className="" alt="Avatar" />
       </div>
-      <div>
+      <div className="text">
         <h1>Melissa Molina</h1>
         <h3>Software Developer</h3>
       </div>

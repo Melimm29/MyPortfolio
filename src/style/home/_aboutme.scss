@@ -1,0 +1,24 @@
+.aboutme {
+  display: flex;
+  font-weight: bolder;
+
+  .image-container {
+    flex: 1;
+    img {
+      width: 100%;
+    }
+  }
+  .paragraph {
+    display: flex;
+    font-family: 'Comfortaa';
+    color: $color-blue;
+    flex: 2;
+    padding: 12px;
+    ul {
+      padding: 8px;
+      li {
+        padding-left: 16px;
+      }
+    }
+  }
+}

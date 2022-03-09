@@ -6,11 +6,21 @@
 .image {
    display:flex;
    justify-content: center;
-   
+
    img {
        border-radius: 50%;
-       height: 300px;
+       height: 360px;
        width: 300px;
-
    }
+}
+
+.text {
+    font-family: 'Comfortaa';
+    color: $color-blue;
+  }
+
+.logos {
+    display:flex;
+    justify-content: space-evenly;
+    padding-bottom: 16px;
 }
