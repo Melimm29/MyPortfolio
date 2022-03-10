@@ -6,9 +6,7 @@ const Card = () => {
           src="https://images.unsplash.com/photo-1611916656173-875e4277bea6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHw&ixlib=rb-1.2.1&q=80&w=400"
           alt=""
         />
-        <h3>
-          <a href="">A Super Wonderful Headline</a>
-        </h3>
+        <h2>A Super Headline</h2>
         <p>Lorem ipsum sit dolor amit</p>
       </div>
     </div>
