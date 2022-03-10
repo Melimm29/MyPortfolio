@@ -1,23 +1,48 @@
 .aboutme {
   display: flex;
   font-weight: bolder;
+  background-color: $color-beige;
 
   .image-container {
     flex: 1;
     img {
       width: 100%;
+      border-radius: 1rem;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
   }
   .paragraph {
-    display: flex;
-    font-family: 'Comfortaa';
-    color: $color-blue;
+    font-family: "Playfair Display", serif;
+    color: $color-black;
     flex: 2;
     padding: 12px;
-    ul {
-      padding: 8px;
-      li {
-        padding-left: 16px;
+    font-size: 1rem;
+    line-height: 1.5;
+    padding: 1rem 2rem;
+
+    p {
+      letter-spacing: 0.1px;
+    }
+
+    table {
+      padding: 0.25rem;
+      a {
+        font-size: 1.50rem;
+      }
+      
+      th {
+        padding: 0.5rem;
+        text-align: start;
+        vertical-align: top;
+
+        a {
+          font-size: 1.25rem;
+        }
+        
+        li {
+          list-style-type: none;
+          padding-left: 1rem;
+        }
       }
     }
   }

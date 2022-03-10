@@ -1,0 +1,21 @@
+.subtitle-container {
+  width: 100%;
+
+  h2 {
+    display: inline-block;
+    position: relative;
+    font-family: "Playfair Display", serif;
+    font-size: 2.5rem;
+    margin: 0;
+
+    &::after {
+      content: "";
+      background-color: $color-peach;
+      bottom: 0;
+      height: 4px;
+      left: 0;
+      position: absolute;
+      width: 100%;
+    }
+  }
+}

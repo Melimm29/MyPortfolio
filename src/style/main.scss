@@ -1,12 +1,18 @@
 @import "./constants/colors";
 
-@import "./navigation/navbar";
+@import "./navigation/navbar.scss";
 @import "./home/landing.scss";
 @import "./home/aboutme.scss";
-@import "./navigation/footer";
+@import "./home/contactme.scss";
+@import "./home/portfolio.scss";
+@import "./components/card.scss";
+@import "./navigation/footer.scss";
+@import "./components/subtitle.scss";
 
-html, body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
 }
