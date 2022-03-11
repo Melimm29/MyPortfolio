@@ -1,0 +1,16 @@
+.form-input {
+  font-family: "Comfortaa";
+  width: 100%;
+  text-align: left;
+  padding: 0.5rem;
+
+  label {
+    margin-right: 8px;
+  }
+
+  input, textarea {
+    padding: 8px;
+    width: 100%;
+    resize: none;
+  }
+}

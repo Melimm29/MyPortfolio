@@ -1,33 +1,35 @@
-.footer {
-    height: 80px;
-    background-color: $color-peach;
-    padding: 16px;
-  }
+.footer-container {
+  height: 100px;
+  background-color: $color-peach;
+  padding: 16px;
 
-.email {
-    font-family: 'Comfortaa';
+  .email {
+    font-family: "Comfortaa";
     font-weight: bold;
     font-size: x-large;
     color: white;
-}
+  }
 
-.f_links {
-    font-family: 'Comfortaa';
+  .f_links {
+    font-family: "Comfortaa";
     font-weight: bold;
     text-decoration-line: none;
     padding: 6px;
     align-items: flex-end;
     color: white;
-} 
+  }
 
-#linkdiv {
+  #linkdiv {
     display: flex;
     align-items: center;
     justify-content: flex-end;
     flex-direction: row;
-}
+  }
 
-.copyrigth {
+  .copyrigth {
     text-align: center;
+    width: 100%;
+    background-color: $color-peach;
     color: rgb(131, 125, 125);
+  }
 }

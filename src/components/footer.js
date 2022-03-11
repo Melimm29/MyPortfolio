@@ -5,7 +5,7 @@ const Footer = () => {
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
       ></link>
-      <div className="footer">
+      <div className="footer-container">
         <div id="linkdiv">
           <a className="email">melissamolina.dev</a>
         </div>
@@ -20,9 +20,9 @@ const Footer = () => {
             <i className="fa fa-fw fa-envelope"></i> Contact Me
           </a>
         </div>
-        <p className="copyrigth">
-            &copy;2022 Melissa Molina. All rights reserved.
-          </p>
+        <div className="copyrigth">
+          &copy;2022 Melissa Molina. All rights reserved.
+        </div>
       </div>
     </footer>
   );
