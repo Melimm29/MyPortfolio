@@ -1,4 +1,4 @@
-import FormInput from "./common/forminput";
+import FormInput from "./UI/forminput";
 
 const Contactme = () => {
   return (
@@ -8,25 +8,29 @@ const Contactme = () => {
         <FormInput
           label="Name"
           required
-          placeholder="Name"
           onChange={(e) => setName(e.target.value)}
           // value={Name}
         />
         <FormInput
           label="Contact"
           required
-          placeholder="Contact"
           onChange={(e) => setName(e.target.value)}
           // value={Name}
         />
         <FormInput
           label="Subject"
           required
-          placeholder="Subject"
           onChange={(e) => setName(e.target.value)}
           // value={Name}
         />
-        <div className="description">
+        <FormInput 
+          label="Message"
+          required
+          inputType="textarea"
+          onChange={(e) => setDescription(e.target.value)}
+          expand
+        />
+          {/* <div className="description">
           <label>
             Description
           </label>
@@ -40,7 +44,7 @@ const Contactme = () => {
             onChange={(e) => setDescription(e.target.value)}
             // value={description}
           />
-        </div>
+        </div> */}
       </div>
     </div>
   );

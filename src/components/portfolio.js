@@ -1,4 +1,4 @@
-import Card from "./common/card";
+import Card from "./UI/card";
 
 const Portfolio = () => {
   return (

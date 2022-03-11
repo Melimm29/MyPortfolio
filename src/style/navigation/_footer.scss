@@ -1,5 +1,5 @@
-.footer {
-  height: 80px;
+.footer-container {
+  height: 100px;
   background-color: $color-peach;
   padding: 16px;
 
@@ -28,6 +28,8 @@
 
   .copyrigth {
     text-align: center;
+    width: 100%;
+    background-color: $color-peach;
     color: rgb(131, 125, 125);
   }
 }

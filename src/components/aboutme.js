@@ -1,4 +1,4 @@
-import Subtitle from "./common/subtitle";
+import Subtitle from "./UI/subtitle";
 
 const Aboutme = () => {
   return (
@@ -15,7 +15,7 @@ const Aboutme = () => {
           looking for an opportunity to work as a software engineer to further
           expand my knowledge and skills and the same time provide solutions and
           new ideas.
-          <table>
+          <tbody>
             <a>Skills</a>
             <tr>
               <th>
@@ -42,7 +42,7 @@ const Aboutme = () => {
                 <li>PHP</li>
               </th>
             </tr>
-          </table>
+          </tbody>
         </p>
       </div>
     </div>
