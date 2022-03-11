@@ -30,21 +30,6 @@ const Contactme = () => {
           onChange={(e) => setDescription(e.target.value)}
           expand
         />
-          {/* <div className="description">
-          <label>
-            Description
-          </label>
-          <textarea
-            className=""
-            name="description"
-            v-model="form.description"
-            type="description"
-            autoFocus
-            placeholder="Description"
-            onChange={(e) => setDescription(e.target.value)}
-            // value={description}
-          />
-        </div> */}
       </div>
     </div>
   );
