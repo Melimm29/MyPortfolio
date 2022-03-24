@@ -10,13 +10,16 @@ const Footer = () => {
           <a className="email">melissamolina.dev</a>
         </div>
         <div id="linkdiv">
-          <a className="f_links" href="#">
+        <a className="f_links" href="#home">
+          <i class="fa fa-fw fa-home"></i> Home
+          </a>
+          <a className="f_links" href="#aboutme">
             <i className="fa fa-fw fa-user"></i> About Me
           </a>
-          <a className="f_links" href="#">
+          <a className="f_links" href="#portfolio">
             <i className="fa fa-fw fa-folder"></i> Portfolio
           </a>
-          <a className="f_links" href="#">
+          <a className="f_links" href="#contactme">
             <i className="fa fa-fw fa-envelope"></i> Contact Me
           </a>
         </div>

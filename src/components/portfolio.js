@@ -2,7 +2,7 @@ import Card from "./UI/card";
 
 const Portfolio = () => {
   return (
-      <div className="portfolio-container">
+      <div id="portfolio" className="portfolio-container">
           <Card/>
           <Card/>
           <Card/>

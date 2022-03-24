@@ -2,7 +2,7 @@ import Subtitle from "./UI/subtitle";
 
 const Aboutme = () => {
   return (
-    <div className="aboutme">
+    <div className="aboutme" id="aboutme">
       <div className="image-container">
         <img src="Melissa.jpeg" className="" alt="Avatar" />
       </div>

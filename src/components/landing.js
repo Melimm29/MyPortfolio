@@ -1,6 +1,6 @@
 const Landing = () => {
   return (
-    <div className="landing">
+    <div className="landing" id="home">
       <div className="image">
         <img src="Melissa.jpeg" className="" alt="Avatar" />
       </div>
