@@ -1,0 +1,16 @@
+.button-container{
+    background-color: $color-beige;
+    padding: 1rem;
+    text-align: center;
+
+    button{
+        background-color: $color-peach;
+        font-family: "Comfortaa";
+        font-size: 1.5rem;
+        padding: 1.5rem;
+        border: 1px solid rgb(227 190 198 / 70%);
+        color: white;
+        font-weight: bold;
+        border-radius: 0.5rem;
+    }
+}

@@ -12,17 +12,17 @@ const Contactme = () => {
   };
 
   return (
-    <>
+    <div id="contactme" >
       <div className="button-container">
-      {!formType && (
-        <button className="button" onClick={onFormTypeSelect(true)}>
-          Contact Me
-        </button>
-      )}
+        {!formType && (
+          <button onClick={onFormTypeSelect(true)}>
+            Contact Me
+          </button>
+        )}
       </div>
       <div>
         {formType && (
-          <div id="contactme" className="contactme-container">
+          <div className="contactme-container">
             <h1>Contact Me</h1>
             <div className="contactme">
               <FormInput
@@ -48,13 +48,15 @@ const Contactme = () => {
                 expand
               />
             </div>
-            <button className="button" onClick={onFormTypeSelect(false)}>
-              Close
-            </button>
+            <div className="button-container">
+              <button onClick={onFormTypeSelect(false)}>
+                Close
+              </button>
+            </div>
           </div>
         )}
       </div>
-    </>
+    </div>
   );
 };
 
