@@ -9,7 +9,7 @@ const Aboutme = () => {
       <div className="paragraph">
         <Subtitle>About Me</Subtitle>
         <p>
-          I'm a recent graduate of Fullstack Academy Bootcamp’s Software
+          I'm graduated of Fullstack Academy Bootcamp’s Software
           Engineer immersive course. I'm adaptive, with good problem-solving
           skills and with a creative outlook towards unfamiliar situations. I am
           looking for an opportunity to work as a software engineer to further

@@ -11,7 +11,7 @@ const Footer = () => {
         </div>
         <div id="linkdiv">
         <a className="f_links" href="#home">
-          <i class="fa fa-fw fa-home"></i> Home
+          <i className="fa fa-fw fa-home"></i> Home
           </a>
           <a className="f_links" href="#aboutme">
             <i className="fa fa-fw fa-user"></i> About Me
